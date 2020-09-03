@@ -8,8 +8,7 @@ namespace BankEncapsulation
         {
             var daniBankAccount = new BankAccount();
 
-            daniBankAccount.Deposit(1000);
-            Console.WriteLine(daniBankAccount.GetBalance());
+            daniBankAccount.Greeting();
         }
     }
 }
